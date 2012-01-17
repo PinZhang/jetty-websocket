@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mozilla</groupId>
+  <artifactId>embedjetty</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.eclipse.jetty</groupId>
+  		<artifactId>jetty-server</artifactId>
+  		<version>8.1.0.RC4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.jetty.aggregate</groupId>
+  		<artifactId>jetty-websocket</artifactId>
+  		<version>8.1.0.RC4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.jetty</groupId>
+  		<artifactId>jetty-servlet</artifactId>
+  		<version>8.1.0.RC4</version>
+  	</dependency>
+  </dependencies>
+</project>
